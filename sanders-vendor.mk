@@ -1352,5 +1352,6 @@ PRODUCT_PACKAGES += \
     tcmclient \
     com.quicinc.cne.api-V1.0-java \
     QtiTelephonyService \
-    CNEService
+    CNEService \
+    com.fingerprints.extension
 
