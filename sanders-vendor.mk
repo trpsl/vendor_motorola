@@ -1436,3 +1436,5 @@ PRODUCT_PACKAGES += \
     com.fingerprints.extension \
     WfdService \
     WfdCommon
+
+PRODUCT_SOONG_NAMESPACES += vendor/motorola/sanders
