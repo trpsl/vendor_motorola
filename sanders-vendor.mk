@@ -1442,3 +1442,5 @@ PRODUCT_PACKAGES += \
     DTVService \
     WfdService \
     WfdCommon
+
+PRODUCT_SOONG_NAMESPACES += vendor/motorola/sanders
