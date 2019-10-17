@@ -1425,8 +1425,6 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     com.quicinc.cne \
     dpmapi \
-    QPerformance \
-    UxPerformance \
     qti-vzw-ims-internal \
     rcsimssettings \
     tcmclient \
