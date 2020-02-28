@@ -1372,6 +1372,16 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.2.so \
      vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.3.so
 
+# DTV Libs
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sanders/proprietary/etc/permissions/mot_dtv_permissions.xml:system/etc/permissions/mot_dtv_permissions.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.hardware.dtv.xml:system/etc/permissions/com.motorola.hardware.dtv.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/com.google.android.tv.installed.xml:system/etc/permissions/com.google.android.tv.installed.xml \
+    vendor/motorola/sanders/proprietary/lib/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvhal.so \
+    vendor/motorola/sanders/proprietary/lib/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtvtuner.so \
+    vendor/motorola/sanders/proprietary/lib64/libdtvtuner.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvtuner.so \
+    vendor/motorola/sanders/proprietary/lib64/libdtvhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtvhal.so 
+
 # Qti Blobs
 PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
