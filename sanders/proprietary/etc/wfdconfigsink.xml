@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <!--
+<<<<<<< HEAD
         Copyright (C) 2012 - 2018 Qualcomm Technologies, Inc.
+=======
+        Copyright (C) 2012 - 2019 Qualcomm Technologies, Inc.
+>>>>>>> 0503c58e16bcf7e2b163f2e7b42150272d8ecb9b
         All Rights Reserved.
         Confidential and Proprietary - Qualcomm Technologies, Inc.
     -->
@@ -266,7 +270,11 @@
                 SINGLETOUCH           BIT2
                 MULTITOUCH            BIT3
                 JOYSTICK              BIT4
+<<<<<<< HEAD
                 CAMERA                BIT5
+=======
+                UIBC_CAMERA                BIT5
+>>>>>>> 0503c58e16bcf7e2b163f2e7b42150272d8ecb9b
                 GESTURE               BIT6
                 REMOTECONTROL         BIT7
                 -->
@@ -779,6 +787,7 @@
     <EnableAudioTrackLatency>0</EnableAudioTrackLatency>
 
     <!--
+<<<<<<< HEAD
         To Configure maximum capability for frame rate
         of Max resolution supported.
         It will be changed in code also based on target.
@@ -786,6 +795,8 @@
     <MaxFpsSupported>60</MaxFpsSupported>
 
     <!--
+=======
+>>>>>>> 0503c58e16bcf7e2b163f2e7b42150272d8ecb9b
         Make audio AV Sync drop window configurable item.Sometimes if wlan
         doesn't perform at required throughput,audio drops can happen due
         to late arrival of audio frames.
