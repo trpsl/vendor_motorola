@@ -129,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-s3508sga-16082601-255c40-addison.tdat \
     vendor/motorola/sanders/proprietary/etc/init/perfservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/perfservice.rc \
     vendor/motorola/sanders/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
-    vendor/motorola/sanders/proprietary/etc/permissions/com.qti.location.sdk.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/embms.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/embms.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/ims.xml \
@@ -137,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
-    vendor/motorola/sanders/proprietary/etc/permissions/izat.xt.srv.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.camera2.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.camera2.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.dpmframework.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.xml \
@@ -765,11 +763,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libSonyDualPDParam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyDualPDParam.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libulp2.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libulp2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libulp2.so \
-    vendor/motorola/sanders/proprietary/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.0.so \
-    vendor/motorola/sanders/proprietary/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.1.so \
-    vendor/motorola/sanders/proprietary/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@1.2.so \
-    vendor/motorola/sanders/proprietary/lib64/vendor.qti.gnss@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@2.0.so \
-    vendor/motorola/sanders/proprietary/lib64/vendor.qti.gnss@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.gnss@2.1.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.gnss@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.2.so \
@@ -1288,9 +1281,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
-    vendor/motorola/sanders/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/liblocationservice_jni.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
-    vendor/motorola/sanders/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libxt_native.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/motorola/sanders/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/motorola/sanders/proprietary/lib/motorola.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/motorola.hardware.camera.device@1.0.so \
@@ -1427,13 +1418,11 @@ PRODUCT_PACKAGES += \
     libbtconfigstore \
     TimeService \
     embms \
-    com.qti.location.sdk \
     embmslibrary \
     imscmlibrary \
     qcrilhook \
     ims \
     qcrilmsgtunnel \
-    izat.xt.srv \
     qti-telephony-common \
     QtiTelephonyServicelibrary \
     atfwd \
